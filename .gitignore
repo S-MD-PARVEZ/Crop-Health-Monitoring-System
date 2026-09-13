@@ -1,0 +1,29 @@
+# MATLAB
+*.asv
+*.m~
+*.fig
+*.slxc
+slprj/
+*.autosave
+*.mat
+Checkpoints/
+VerifierCheckpoints/
+Latest/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+
+# Android
+*.apk
+.gradle/
+build/
+.idea/
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
