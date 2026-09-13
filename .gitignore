@@ -27,3 +27,50 @@ local.properties
 # OS files
 .DS_Store
 Thumbs.db
+
+# ---- Large trained models (70-90MB each — host externally, see matlab-prototype/models/) ----
+matlab-prototype/models/*.mat
+
+# ---- Full-length demo videos (host on YouTube/Drive or attach as a GitHub Release) ----
+assets/demo/*.mp4
+assets/demo/*.mov
+
+# ---- Full training dataset (link to the source instead of committing it) ----
+matlab-prototype/full-dataset/
+model-training/data/
+
+# ---- MATLAB junk ----
+*.asv
+*.m~
+slprj/
+*.slxc
+codegen/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+venv/
+env/
+.env
+*.egg-info/
+.ipynb_checkpoints
+
+# ---- Android / Kotlin (only relevant if you add android-app/) ----
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
